@@ -5,7 +5,7 @@
 import { execSync } from "node:child_process";
 import { writeFileSync, readFileSync, existsSync } from "node:fs";
 
-const REPO = "palsampurna16-prog/cdlc-workflow-record";
+const REPO = "abheri-netizen/cdlc-workflow-record";
 
 function token() {
   if (process.env.GITHUB_TOKEN) return process.env.GITHUB_TOKEN;
