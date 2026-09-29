@@ -1,7 +1,7 @@
 # CDLC Workflow Record
 
 A reference for how SkillCat's work is configured in Jira, styled as Jira itself.
-Open the [published site](https://palsampurna16-prog.github.io/cdlc-workflow-record/),
+Open the [published site](https://abheri-netizen.github.io/cdlc-workflow-record/),
 or `index.html`.
 
 ## What's in it
