@@ -45,8 +45,10 @@ These broke by design when Sampurna's accounts were deactivated. Nothing here is
 package, because it maps real colleagues' names to their roles. `scripts/redact.mjs`
 will not run without it. Copy `redaction-map.example.json` to `redaction-map.json` and
 fill it in, or ask Sampurna for the original. Format is an array of
-`["text to find", "text to replace with"]` pairs, longest first so that "Daniel L Riggs"
-is matched before "Daniel".
+`["text to find", "text to replace with"]` pairs, ordered longest first, so that a
+person's full name is matched before their first name alone. Note that the map itself
+is the one thing that must never be committed: a file pairing each name with their
+role would publish exactly what the redaction removes.
 
 **2. The Jira API token is gone.** `scripts/refresh-usage.mjs` re-measures how many
 tickets each work type has. It needs three values:
