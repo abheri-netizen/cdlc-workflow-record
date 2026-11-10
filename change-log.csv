@@ -1,4 +1,6 @@
 ﻿"Date","Time","Changed by","What changed","Files touched","Files","Reference"
+"2026-11-11","00:15","abheri-netizen","Remove obsolete Jira usage refresh script","1","scripts/refresh-usage.mjs","1cef358"
+"2026-11-10","18:43","github-actions[bot]","chore: update the change log [skip ci]","1","change-log.csv","629be84"
 "2026-11-11","00:13","abheri-netizen","Remove Jira usage counts workflow","1",".github/workflows/refresh.yml","099db0b"
 "2026-09-29","15:51","github-actions[bot]","chore: update the change log [skip ci]","1","change-log.csv","7d7163c"
 "2026-09-29","21:21","abheri-netizen","Update README.md","1","README.md","17cba73"
